@@ -1,4 +1,11 @@
-package main 
+package main
 
-func main(){
+type User struct {
+	name  string
+	age   int
+	admin bool
+}
+
+func main() {
+	u := User
 }
