@@ -36,9 +36,10 @@
     // Go-specific editor settings
     "[go]": {
         "editor.insertSpaces": false,
+        "editor.acceptSuggestionOnCommitCharacter": true,
         "editor.formatOnSave": true,
         "editor.formatOnSaveMode": "file",
-        "editor.stickyScroll.enabled": true,  // Better navigation for long files
+        "editor.stickyScroll.enabled": true, // Better navigation for long files
         "editor.codeActionsOnSave": {
             "source.organizeImports": "always",
             "source.fixAll": "always"
@@ -58,8 +59,18 @@
     },
     "git.ignoreRebaseWarning": true,
     //"workbench.colorTheme": "Atom One Dark",
-     "workbench.colorTheme": "Tokyo Dark",
+    "workbench.colorTheme": "Tokyo Dark",
     "git.replaceTagsWhenPull": true,
     "telemetry.telemetryLevel": "off",
     "makefile.configureOnOpen": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.wordBasedSuggestions": "matchingDocuments",
+    "editor.wordBasedSuggestionsMode": "allDocuments",
+    "editor.suggest.insertMode": "insert",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggest.showWords": true
 }
